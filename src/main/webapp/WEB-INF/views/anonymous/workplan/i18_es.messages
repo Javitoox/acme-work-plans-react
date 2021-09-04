@@ -1,0 +1,20 @@
+# i18n_es.messages
+anonymous.workplan.list.label.isPublic = ¿Es el plan público?
+anonymous.workplan.list.label.begin = Fecha de comienzo
+anonymous.workplan.list.label.end = Fecha de fin
+anonymous.workplan.list.label.tasks = Tareas
+anonymous.workplan.form.label.isPublic = ¿Es el plan público?
+anonymous.workplan.form.label.begin = Fecha de comienzo
+anonymous.workplan.form.label.end = Fecha de fin
+anonymous.workplan.form.label.workload = Carga de trabajo
+anonymous.workplan.form.button.return = Return
+anonymous.workplan.form.label.title = Título
+anonymous.workplan.list.label.title = Título
+anonymous.workplan.form.label.executionPeriod = Periodo de ejecución
+
+anonymous.workplan.form.label.tasks.title= Título
+anonymous.workplan.form.label.tasks.id= Id
+anonymous.workplan.form.label.tasks= Tareas del plan de trabajo
+anonymous.workplan.form.label.tasks.public = Privacidad
+anonymous.workplan.form.label.tasks.public.true= Pública
+anonymous.workplan.form.label.tasks.public.false= Privada
