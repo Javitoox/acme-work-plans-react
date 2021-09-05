@@ -24,6 +24,7 @@
 		<property name="info">
 			<null />
 		</property>
+		<property name="budget" value="60.00"/>
 	</bean>
 
 	<bean id="shout02" class="acme.entities.shouts.Shout">
@@ -31,6 +32,7 @@
 		<property name="author" value="Patrick Start" />
 		<property name="text" value="I'm happy" />
 		<property name="info" value="http://www.example.com" />
+		<property name="budget" value="2.00"/>
 	</bean>
 
 	<bean id="shout03" class="acme.entities.shouts.Shout">
@@ -40,6 +42,7 @@
 		<property name="info">
 			<null />
 		</property>
+		<property name="budget" value="12.00"/>
 	</bean>
 
 	<bean id="shout04" class="acme.entities.shouts.Shout">
@@ -47,6 +50,7 @@
 		<property name="author" value="Peter Parker" />
 		<property name="text" value="I'm Spiderman!" />
 		<property name="info" value="http://www.example.com" />
+		<property name="budget" value="52.77"/>
 	</bean>
 
 	<bean id="shout05" class="acme.entities.shouts.Shout">
@@ -54,6 +58,7 @@
 		<property name="author" value="Squidward Po" />
 		<property name="text" value="I'm angry" />
 		<property name="info" value="https://www.youtube.com/watch?v=Gx4qSjcKNcA" />
+		<property name="budget" value="2.35"/>
 	</bean>
 
 	<bean id="shout06" class="acme.entities.shouts.Shout">
@@ -63,6 +68,7 @@
 		<property name="info">
 			<null />
 		</property>
+		<property name="budget" value="12.35"/>
 	</bean>
 
 	<bean id="shout07" class="acme.entities.shouts.Shout">
@@ -70,6 +76,31 @@
 		<property name="author" value="Javier Decuca" />
 		<property name="text" value="I'm Hacker!" />
 		<property name="info" value="https://twitter.com" />
+		<property name="budget" value="20.05"/>
+	</bean>
+	
+	<bean id="shout08" class="acme.entities.shouts.Shout">
+		<property name="author" value="Steve Jobs"/>
+		<property name="text" value="Programming..."/>
+		<property name="moment" value="2021/04/15 8:15"/>
+		<property name="info" value="https://www.apple.com/"/>
+		<property name="budget" value="1000.50"/>
+	</bean>
+	
+	<bean id="shout09" class="acme.entities.shouts.Shout">
+		<property name="author" value="David Broncano"/>
+		<property name="text" value="Hello! How much money do you have?"/>
+		<property name="moment" value="2021/05/05 18:45"/>
+		<property name="info"><null/></property>
+		<property name="budget" value="12.35"/>
+	</bean>
+	
+	<bean id="shout10" class="acme.entities.shouts.Shout">
+		<property name="author" value="Juan Alberto"/>
+		<property name="text" value="Are you a twitch?"/>
+		<property name="moment" value="2021/05/12 14:10"/>
+		<property name="info"><null/></property>
+		<property name="budget" value="10.05"/>
 	</bean>
 
 	<!-- Task -->

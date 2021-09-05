@@ -19,25 +19,25 @@ public class AnonymousShoutListRecentService implements AbstractListService<Anon
     AnonymousShoutRepository repository;
 	
 	@Override
-	public boolean authorise(Request<Shout> request) {
+	public boolean authorise(final Request<Shout> request) {
 		 assert  request != null;
 	     return true;
 	}
 
 	@Override
-	public void unbind(Request<Shout> request, Shout entity, Model model) {
+	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
 		assert request != null;
         assert entity != null;
         assert model != null;
-        request.unbind(entity, model, "author","text", "moment");
+        request.unbind(entity, model, "author","text", "moment", "info", "budget");
 		
 	}
 
 	@Override
-	public Collection<Shout> findMany(Request<Shout> request) {
+	public Collection<Shout> findMany(final Request<Shout> request) {
 		assert request != null;
         Collection<Shout> result;
-        Calendar calendar = Calendar.getInstance();
+        final Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.MONTH, -1);//Obtenemos la fecha de hoy y le restamos un mes para obtener los shouts más recientes.
         result = this.repository.findManyRecent(calendar.getTime());
         return result;

@@ -18,6 +18,11 @@ master.welcome.title = Welcome!
 master.welcome.text = \
 	Welcome to Acme Work-Plans! Your first project in D&T
 
+# master.menu.new #######################################################
+
+master.menu.new = New functionality
+master.menu.new.react = New front-end
+
 # master.menu #################################################################
 
 master.menu.home = Home

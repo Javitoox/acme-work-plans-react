@@ -18,6 +18,11 @@ master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
 	Bienvenidos a Acme Work-Plans! Tu primer proyecto en Diseño y Pruebas.
 
+# master.menu.new #######################################################
+
+master.menu.new = Nueva funcionalidad
+master.menu.new.react = Nuevo front-end
+
 # master.menu #################################################################
 
 master.menu.home = Inicio

@@ -11,12 +11,15 @@
 anonymous.shout.form.label.author = Autor:
 anonymous.shout.form.label.text = Texto:
 anonymous.shout.form.label.info = Información:
+anonymous.shout.form.label.budget = Presupuesto:
 anonymous.shout.form.button.create = Gritar
 anonymous.shout.form.button.return = Volver
-
+ 
 anonymous.shout.list.label.moment = Momento
 anonymous.shout.list.label.author = Autor
 anonymous.shout.list.label.text = Texto
+anonymous.shout.list.label.info = Información
+anonymous.shout.list.label.budget = Presupuesto
 
 anonymous.shout.list.button.all= Todos los gritos
 anonymous.shout.list.button.recent= Gritos más recientes

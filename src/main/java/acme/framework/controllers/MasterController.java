@@ -12,10 +12,11 @@
 
 package acme.framework.controllers;
 
-import acme.framework.entities.Administrator;
-import acme.framework.helpers.FactoryHelper;
-import acme.framework.helpers.PrincipalHelper;
-import acme.framework.utilities.DatabasePopulator;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.beans.BeansException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ApplicationContext;
@@ -23,14 +24,15 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
-import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
+import acme.framework.entities.Administrator;
+import acme.framework.helpers.Assert;
+import acme.framework.helpers.FactoryHelper;
+import acme.framework.helpers.PrincipalHelper;
+import acme.framework.utilities.DatabasePopulator;
 
 @Controller
 public class MasterController implements ApplicationContextAware {
@@ -40,6 +42,8 @@ public class MasterController implements ApplicationContextAware {
 	protected ConfigurableApplicationContext context;
 
 	// ApplicationContextAware interface --------------------------------------
+	
+	public static final String BASE_URL = "http://localhost:3000";
 
 
 	@Override

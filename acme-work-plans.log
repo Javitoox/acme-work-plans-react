@@ -1,0 +1,274 @@
+INFO [acme.Launcher] Starting Launcher using Java 1.8.0_281 on DESKTOP-T3O143G with PID 17148 (C:\Users\Usuario\Desktop\Development\proyects\acme-work-plans-react\target\classes started by Javi Toox in C:\Users\Usuario\Desktop\Development\proyects\acme-work-plans-react)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 4.357 seconds (JVM running for 4.713)
+INFO [acme.framework.utilities.DatabasePopulator] Populating initial data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word7 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word8 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word9 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for word1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for word2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for word3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for word4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for word5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for word6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for word7.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for word8.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for word9.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for word10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for word11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for spam1.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word1 = acme.entities.spam.WordClass{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word2 = acme.entities.spam.WordClass{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word3 = acme.entities.spam.WordClass{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word4 = acme.entities.spam.WordClass{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word5 = acme.entities.spam.WordClass{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word6 = acme.entities.spam.WordClass{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word7 = acme.entities.spam.WordClass{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word8 = acme.entities.spam.WordClass{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word9 = acme.entities.spam.WordClass{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word10 = acme.entities.spam.WordClass{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word11 = acme.entities.spam.WordClass{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam1 = acme.entities.spam.Spam{id=17, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 1.8.0_281 on DESKTOP-T3O143G with PID 6204 (C:\Users\Usuario\Desktop\Development\proyects\acme-work-plans-react\target\classes started by Javi Toox in C:\Users\Usuario\Desktop\Development\proyects\acme-work-plans-react)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 4.38 seconds (JVM running for 4.743)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word7 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word8 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word9 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating word11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for word1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for word2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for word3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for word4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for word5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for word6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for word7.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for word8.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for word9.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for word10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for word11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for spam1.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word1 = acme.entities.spam.WordClass{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word2 = acme.entities.spam.WordClass{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word3 = acme.entities.spam.WordClass{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word4 = acme.entities.spam.WordClass{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word5 = acme.entities.spam.WordClass{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word6 = acme.entities.spam.WordClass{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word7 = acme.entities.spam.WordClass{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word8 = acme.entities.spam.WordClass{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word9 = acme.entities.spam.WordClass{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word10 = acme.entities.spam.WordClass{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting word11 = acme.entities.spam.WordClass{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam1 = acme.entities.spam.Spam{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating Managers1UserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating Managers1Managers ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating Managers1Authenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating Managers2UserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating Managers2Managers ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating Managers2Authenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan7 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan8 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan9 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating workPlan10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for shout07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for shout09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout10.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Deferring task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for Managers1UserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for Managers1Managers.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for Managers1Authenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for Managers2UserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for Managers2Managers.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for Managers2Authenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for workPlan1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for workPlan2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for workPlan3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for workPlan4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for workPlan5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for workPlan6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for workPlan7.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for workPlan8.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for workPlan9.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for workPlan10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=128, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=129, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=130, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=131, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=132, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=133, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout07 = acme.entities.shouts.Shout{id=134, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout08 = acme.entities.shouts.Shout{id=135, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout09 = acme.entities.shouts.Shout{id=136, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout10 = acme.entities.shouts.Shout{id=137, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting Managers1UserAccount = acme.framework.entities.UserAccount{id=138, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting Managers1Managers = acme.entities.roles.Managers{id=139, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting Managers1Authenticated = acme.framework.entities.Authenticated{id=140, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting Managers2UserAccount = acme.framework.entities.UserAccount{id=141, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting Managers2Managers = acme.entities.roles.Managers{id=142, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting Managers2Authenticated = acme.framework.entities.Authenticated{id=143, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan1 = acme.entities.workPlan.WorkPlan{id=144, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan2 = acme.entities.workPlan.WorkPlan{id=145, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan3 = acme.entities.workPlan.WorkPlan{id=146, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan4 = acme.entities.workPlan.WorkPlan{id=147, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan5 = acme.entities.workPlan.WorkPlan{id=148, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan6 = acme.entities.workPlan.WorkPlan{id=149, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan7 = acme.entities.workPlan.WorkPlan{id=150, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan8 = acme.entities.workPlan.WorkPlan{id=151, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan9 = acme.entities.workPlan.WorkPlan{id=152, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting workPlan10 = acme.entities.workPlan.WorkPlan{id=153, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=154, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=155, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=156, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=157, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=158, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=159, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=160, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=161, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=162, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=163, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Work-Plans/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:285): JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67): Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Work-Plans/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:285): JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67): Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Work-Plans/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:285): JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67): Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Work-Plans/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:285): JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67): Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Work-Plans/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:285): JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])
+com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67): Cannot deserialize value of type `java.lang.Double` from String "sas": not a valid Double value
+ at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: acme.entities.shouts.Shout["budget"])

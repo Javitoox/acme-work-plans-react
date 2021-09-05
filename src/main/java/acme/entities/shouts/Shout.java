@@ -1,18 +1,22 @@
 package acme.entities.shouts;
 
-import acme.framework.entities.DomainEntity;
-import lombok.Getter;
-import lombok.Setter;
-import org.hibernate.validator.constraints.Length;
-import org.hibernate.validator.constraints.URL;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
-import java.util.Date;
+
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.URL;
+
+import acme.framework.entities.DomainEntity;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
 @Getter
@@ -40,6 +44,11 @@ public class Shout extends DomainEntity {
 	
 	@URL 
 	protected String info;
+	
+	@Digits(integer = 10, fraction = 2)
+	@Min(0)
+	@NotNull
+	protected Double budget;
 	
 	//	Derived attributes
 	
